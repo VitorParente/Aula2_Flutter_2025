@@ -5,11 +5,11 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "xxxxxxx",
-      appId: "xxxxxxx",
-      messagingSenderId: "xxxxxxx",
-      projectId: "xxxxxxx",
-      databaseURL: "xxxxxxx",
+      apiKey: "AIzaSyBqkoUxqjZJtmM8RDb_y4xoUaTlKpKhqIk",
+      appId: "1:687573416533:android:f4357dfbbbc0d7209b72dc",
+      messagingSenderId: "687573416533",
+      projectId: "flutter-01-2cfc3",
+      databaseURL: "https://flutter-01-2cfc3-default-rtdb.firebaseio.com/",
     ),
   );
   runApp(MyApp());
